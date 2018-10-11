@@ -31,5 +31,19 @@ public class Driver
 		{
 			System.out.print(hero + ", ");
 		}
+		
+		System.out.println("===== POPPING =====");
+		
+		System.out.print("[Stack] >> ")
+		for (String vil: meStackOVillians)
+		{
+			System.out.print(vil.pop() + ", ");
+		}
+		
+		System.out.print("\n[Queue] >> ")
+		for (String hero: meQueueOHeroes)
+		{
+			System.out.print(hero.remove() + ", ");
+		}
 	}
 }
