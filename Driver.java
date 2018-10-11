@@ -17,5 +17,19 @@ public class Driver
 		
 		meStackOVillians.push("Green Goblin");
 		meQueueOHeroes.add("Spiderman");
+		
+		System.out.println("===== PUSHING =====");
+	
+		System.out.print("[Stack] >> ")
+		for (String vil: meStackOVillians)
+		{
+			System.out.print(vil + ", ");
+		}
+		
+		System.out.print("\n[Queue] >> ")
+		for (String hero: meQueueOHeroes)
+		{
+			System.out.print(hero + ", ");
+		}
 	}
 }
